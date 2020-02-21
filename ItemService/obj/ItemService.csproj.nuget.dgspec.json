@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Suma\\Microservices\\ItemService\\ItemService.csproj": {}
+    "C:\\Suma\\Services\\ItemService\\ItemService.csproj": {}
   },
   "projects": {
-    "C:\\Suma\\Microservices\\ItemService\\ItemService.csproj": {
+    "C:\\Suma\\Services\\ItemService\\ItemService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Suma\\Microservices\\ItemService\\ItemService.csproj",
+        "projectUniqueName": "C:\\Suma\\Services\\ItemService\\ItemService.csproj",
         "projectName": "ItemService",
-        "projectPath": "C:\\Suma\\Microservices\\ItemService\\ItemService.csproj",
+        "projectPath": "C:\\Suma\\Services\\ItemService\\ItemService.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Suma\\Microservices\\ItemService\\obj\\",
+        "outputPath": "C:\\Suma\\Services\\ItemService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

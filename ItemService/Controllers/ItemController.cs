@@ -29,7 +29,7 @@ namespace ItemService.Controllers
             }
             catch(Exception ex)
             {
-                return NotFound(ex.Message);
+                return NotFound(ex.InnerException.Message);
             }
         }
         [HttpGet]
@@ -42,7 +42,7 @@ namespace ItemService.Controllers
             }
             catch (Exception ex)
             {
-                return NotFound(ex.Message);
+                return NotFound(ex.InnerException.Message);
             }
         }
         [HttpPost]
@@ -57,7 +57,7 @@ namespace ItemService.Controllers
             }
             catch (Exception ex)
             {
-                return NotFound(ex.Message);
+                return NotFound(ex.InnerException.Message);
             }
         }
         [HttpPut]
@@ -72,11 +72,11 @@ namespace ItemService.Controllers
             }
             catch (Exception ex)
             {
-                return NotFound(ex.Message);
+                return NotFound(ex.InnerException.Message);
             }
         }
         [HttpDelete]
-        [Route("Delete")]
+        [Route("Delete/{id}")]
 
         public IActionResult Delete(string id)
         {
@@ -87,7 +87,7 @@ namespace ItemService.Controllers
             }
             catch (Exception ex)
             {
-                return NotFound(ex.Message);
+                 return NotFound(ex.InnerException.Message);
             }
         }
     }
