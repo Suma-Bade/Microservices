@@ -28,7 +28,15 @@ namespace ItemService
         {
             services.AddDbContext<ShopDBContext>();
             services.AddTransient<IItemRepository, ItemRepository>();
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options =>
+                 options.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+            }); 
             services.AddControllers();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +50,7 @@ namespace ItemService
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseCors("AllowOrigin");//enabling cors
 
             app.UseEndpoints(endpoints =>
             {

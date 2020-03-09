@@ -237,10 +237,10 @@ C:\Suma\Services\ItemService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandar
 C:\Suma\Services\ItemService\obj\Debug\netcoreapp3.1\ItemService.csprojAssemblyReference.cache
 C:\Suma\Services\ItemService\obj\Debug\netcoreapp3.1\staticwebassets\ItemService.StaticWebAssets.Manifest.cache
 C:\Suma\Services\ItemService\obj\Debug\netcoreapp3.1\staticwebassets\ItemService.StaticWebAssets.xml
-C:\Suma\Services\ItemService\obj\Debug\netcoreapp3.1\ItemService.MvcApplicationPartsAssemblyInfo.cache
 C:\Suma\Services\ItemService\obj\Debug\netcoreapp3.1\ItemService.AssemblyInfoInputs.cache
 C:\Suma\Services\ItemService\obj\Debug\netcoreapp3.1\ItemService.AssemblyInfo.cs
 C:\Suma\Services\ItemService\obj\Debug\netcoreapp3.1\ItemService.RazorTargetAssemblyInfo.cache
 C:\Suma\Services\ItemService\obj\Debug\netcoreapp3.1\ItemService.csproj.CopyComplete
 C:\Suma\Services\ItemService\obj\Debug\netcoreapp3.1\ItemService.dll
 C:\Suma\Services\ItemService\obj\Debug\netcoreapp3.1\ItemService.pdb
+C:\Suma\Services\ItemService\obj\Debug\netcoreapp3.1\ItemService.MvcApplicationPartsAssemblyInfo.cache
